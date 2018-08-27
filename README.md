@@ -2,8 +2,6 @@
 Shiro与SSM结合，实现登录和授权功能
 
 ## 本人博客
-https://www.jianshu.com/u/4a02af32281e
-
 ## 开篇
 1. 本项目已经上传)[github](https://github.com/MyBaron/SSM_Shiro)，建议对照代码理解
 2. 本篇主要讲Shiro框架与SSM框架结合，实现登录和授权功能
