@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<bean type="com.opensymphony.xwork2.ObjectFactory" 
+		name="aaa" 
+		class="cn.itcast.shoa.struts.action.CreateActionBean" />
+	<constant name="struts.objectFactory" value="aaa"></constant>
+	<package name="person" namespace="/" extends="struts-default">
+		<action name="personAction_*" method="{1}" class="personAction">
+			
+		</action>
+	</package>
+</struts>
